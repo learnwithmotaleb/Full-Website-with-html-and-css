@@ -1,0 +1,629 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.logo{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  width: 30%;
+  background-color: white;
+  border-radius: 50%;
+
+}
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor:pointer;
+
+   
+}
+.navlist{
+  width: 50%;
+  /* background-color: rgb(61, 211, 61); */
+  display: flex;
+ 
+  align-items: center;
+
+}
+.navlist li{ 
+  list-style-type: none;
+  padding: 20px 23px;
+
+}
+.navlist li a{
+  text-decoration: none;
+  color: white;
+
+}
+.navlist li a:hover{
+ background-color: rgb(107, 96, 96, 0.2);
+ color: white;
+border-radius: 3px;
+
+
+
+}
+.rightnav{
+  width: 50%;
+  /* background-color: red; */
+  text-align: right;
+  position: absolute;
+  right: 150px;
+}
+#search{
+  padding: 5px;
+  font-size: 12px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  right: 20px;
+}
+.btn-sm{
+ margin: 10px;
+ background-color:none;
+}
+
+.background{
+  background:rgb(0, 0, 0, 0.7) url("image/green-chameleon-s9CC2SKySJM-unsplash.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+
+}
+
+
+.line-bar{
+  position: absolute;
+  cursor: pointer;
+  right: 6%;
+  top: 28px;
+  display:none;
+
+}
+.line{
+  width: 40px;
+  background-color: white;
+  height: 4px;
+  margin: 8px 3px;
+  
+}
+/* Navbar section end */
+
+
+/* first section start */
+.box-main{
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-family:sans-serif, monospace;
+margin:auto;
+}
+
+.firstsection{
+  height: 100vh;
+  flex-direction: column;
+
+}
+ 
+.fristhub{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  left: 300px;
+  top: 200px;
+}
+.fristhub .text-big{
+  font-size: 35px;
+  text-transform: uppercase;
+
+  text-shadow: 1px 2px black;
+}
+.fristhub .text-small{
+  font-size: 15px;
+  color: white;
+  font-family:serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+
+}
+.button .btn{
+padding: 8px 20px;
+margin: 5px 3px;
+border:2px solid white;
+border-radius: 8px;
+background-color: none;
+color: rgb(0, 0, 0);
+cursor: pointer;
+font-size: 18px;
+font-weight: bold;
+}
+.button .btn:hover{
+  background-color: rgb(61, 56, 56, 0.2);
+  color:white;
+}
+.clear-div{
+  clear: both;
+}
+/* first section end */
+
+/* second section start */
+.secondsection{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+  margin: auto;
+  text-align: justify;
+  position: relative;
+
+} 
+.sectiontag{
+  text-align: left;
+  font-size: 35px;
+  padding: 10px;
+  
+
+}
+
+.sectionsubtag{
+  text-align: justify;
+  padding: 10px;
+
+
+}
+
+.thumnail{
+  position: absolute;
+  top: 50px;
+  left: 30px;
+
+}
+.thumnail img{
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  border-radius: 10px;
+}
+.thumnail a{
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  top:310px;
+  left: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* second section end */
+
+/* contact form start */
+
+#contact-id{
+  width: 100%;
+text-align: center;
+background-color:#2c4451;
+width: 100%;
+height: 100vh;
+}
+.contact input{
+  width: 50%;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  border-radius:5px;
+  resize:none;
+
+}
+.contact textarea{
+  position: relative;
+ /* left: 123px; */
+  width: 50%;
+  padding: 10px;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  border-radius:5px;
+  resize:none;
+
+}
+.contact button{
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 100px;
+}
+
+.hed{
+  position: relative;
+  top: 10px;
+  font-size: 15px;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+/* Contact form end */
+/* footer start */
+footer{
+  position: relative;
+  background-color: #152f4f;
+  width: 100%;
+  height:500px;
+  text-align: center;
+}
+footer #footer-section{
+  position: absolute;
+  top:100px;
+  margin: 10px;
+  
+}
+footer .column1{
+  color: white;
+  text-align: left;
+
+}
+footer h1{
+  font-size: 25px;
+  font-family: 'Noto Serif JP', serif;
+
+}
+footer .column2{
+  color: white;
+  text-align: left;
+
+}
+footer .column3{
+  color: white;
+  text-align: left;
+
+}
+footer .column3 .link{
+  text-decoration: none;
+  color: white;
+}
+footer .column2 .link{
+  text-decoration: none;
+  color: white;
+}
+footer .column1 .link{
+  text-decoration: none;
+  color: white;
+}
+.hr-footer .hr{
+  width: 100%;
+  border: 0.5px solid white;
+}
+
+.hr-footer p{
+  text-align: left;
+}
+/* footer end */
+/* responsive coding */
+
+@media only screen and (mx-width: 600px){
+  .line-bar{display: block;}
+  .h-navbar{
+    height: 80px;
+  }
+  .v-class{
+    opacity: 0;
+  }
+  .navbar{
+    flex-direction: column;
+
+  }
+  .navbar .navlist{
+    flex-direction: column;
+
+  }
+  .navbar .navlist .rightnav{
+    flex-direction: column;
+
+  }
+  .navbar .navlist a:hover{
+    font-size: 15px;
+    width: 100%;
+    background-color: rgba(238, 227, 227, 0.5);
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 10px;
+
+  }
+  .firstsection{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+  }
+  .firstsection .box-main{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    position: none;
+  }
+  .box-main .fristhub .text-big .text-small .button{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    position: none;
+    right: 200px;
+
+  }
+  .box-main .fristhub{
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+
+  }
+  .box-main .text-big{
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+
+  }
+  .box-main .text-small{
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+
+  }
+  .box-main .button .btn{
+  
+    flex-direction: column;
+  }
+  .secondsection{
+  flex-direction: column;
+  box-sizing: border-box;
+  display:flex;
+
+  }
+  .secondsection .section{
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+
+
+  }
+  .secondsection .section2{
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+
+  }
+  .secondsection .section2 .thumnail img{
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+
+}
+
+
+
+
+
+
+
+
+}
+@media only screen and (max-width: 768px){
+  .line-bar{display: block;}
+  .h-navbar{
+    height: 80px;
+  }
+  .v-class{
+    opacity: 0;
+  }
+  .navbar{
+    flex-direction: column;
+
+  }
+  .navbar .navlist{
+    flex-direction: column;
+
+  }
+  .navbar .navlist .rightnav{
+    flex-direction: column;
+
+  }
+  .navbar .navlist a:hover{
+    font-size: 15px;
+    width: 100%;
+    background-color: rgba(238, 227, 227, 0.5);
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 10px;
+
+  }
+  .firstsection .box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:sans-serif, monospace;
+    margin:auto;
+  }
+  .box-main .fristhub .text-big .text-small .button{
+    flex-direction: column;
+   
+
+  }
+  .box-main .fristhub{
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+
+  }
+  .box-main .text-big{
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+
+  }
+  .box-main .text-small{
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+
+  }
+  .box-main .button .btn{
+  
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+  }
+  .secondsection{
+    flex-direction: column;
+    box-sizing: border-box;
+    display:flex;
+  
+    }
+    .secondsection .section{
+      flex-direction: column;
+      position: relative;
+      left: 20px;
+  
+  
+    }
+    .secondsection .section2{
+      flex-direction: column;
+      position: relative;
+      left: 20px;
+  
+    }
+    .secondsection .section2 .thumnail img{
+      flex-direction: column;
+      position: relative;
+      left: 20px;
+  
+  }
+  
+  
+
+
+
+
+
+}
+@media only screen and (max-width: 992px){
+  .navbar{
+    flex-direction: column;
+
+  }
+  .navbar .navlist{
+    flex-direction: column;
+
+  }
+  .navbar .navlist .rightnav{
+    flex-direction: column;
+
+  }
+  .navbar .navlist a:hover{
+    font-size: 15px;
+    width: 100%;
+    background-color: rgba(238, 227, 227, 0.5);
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 10px;
+
+  }
+  .firstsection .box-main{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    position: none;
+  }
+  .box-main .fristhub .text-big .text-small .button{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    right: 100px;
+
+  }
+  .box-main .fristhub{
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+
+  }
+  .box-main .text-big{
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+
+  }
+  .box-main .text-small{
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+
+  }
+  .box-main .button .btn{
+  
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+  }
+
+
+
+  .secondsection{
+    flex-direction: column;
+    box-sizing: border-box;
+    display:flex;
+  
+    }
+    .secondsection .section{
+      flex-direction: column;
+      position: relative;
+      left: 20px;
+  
+  
+    }
+    .secondsection .section2{
+      flex-direction: column;
+      position: relative;
+      left: 20px;
+  
+    }
+    .secondsection .section2 .thumnail img{
+      flex-direction: column;
+      position: relative;
+      left: 20px;
+  
+  }
+  
+  
+
+
+
+}
+@media only screen and (max-width: 1200px){
+
+
+
+}
